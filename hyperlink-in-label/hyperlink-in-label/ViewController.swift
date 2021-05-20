@@ -32,6 +32,9 @@ class ViewController: UIViewController {
     guard let text = label.text else { return }
     if let url = gesture.didTapAttributedTextInLabel(label: label, inRange: urlString) {
       print(url)
+      if let openUrl = URL(string: url) {
+          UIApplication.shared.open(openUrl)
+      }
     }
   }
 
