@@ -13,6 +13,7 @@
 		33AAC0412656AFBA0073A398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AAC03F2656AFBA0073A398 /* Main.storyboard */; };
 		33AAC0432656AFBC0073A398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AAC0422656AFBC0073A398 /* Assets.xcassets */; };
 		33AAC0462656AFBC0073A398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AAC0442656AFBC0073A398 /* LaunchScreen.storyboard */; };
+		33AAC04F2656BE4C0073A398 /* NSAttributedString + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AAC04E2656BE4C0073A398 /* NSAttributedString + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33AAC0422656AFBC0073A398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33AAC0452656AFBC0073A398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33AAC0472656AFBC0073A398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AAC04E2656BE4C0073A398 /* NSAttributedString + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				33AAC0392656AFBA0073A398 /* AppDelegate.swift */,
 				33AAC03B2656AFBA0073A398 /* SceneDelegate.swift */,
 				33AAC03D2656AFBA0073A398 /* ViewController.swift */,
+				33AAC04E2656BE4C0073A398 /* NSAttributedString + extension.swift */,
 				33AAC03F2656AFBA0073A398 /* Main.storyboard */,
 				33AAC0422656AFBC0073A398 /* Assets.xcassets */,
 				33AAC0442656AFBC0073A398 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				33AAC03E2656AFBA0073A398 /* ViewController.swift in Sources */,
 				33AAC03A2656AFBA0073A398 /* AppDelegate.swift in Sources */,
 				33AAC03C2656AFBA0073A398 /* SceneDelegate.swift in Sources */,
+				33AAC04F2656BE4C0073A398 /* NSAttributedString + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
